@@ -63,7 +63,7 @@ button,
 input,
 select {
     margin: 5px;
-    width: 315px;
+    width: 317px;
     box-sizing: border-box;
     background-color: var(--color-3);
     font-family: var(--main-font-family);

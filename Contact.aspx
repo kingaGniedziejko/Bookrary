@@ -8,11 +8,15 @@
             <input id="Text1" type="email" /><br />
             <asp:Label ID="Label2" runat="server" Text="Topic"></asp:Label>
             <input id="Text2" type="text" /><br />
-            <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="Label3" runat="server" Text="Phone"></asp:Label>
             <input id="Text3" type="text" /><br />
             <asp:TextBox ID="TextBox1" runat="server" Height="86px" Width="354px"></asp:TextBox><br />
             <asp:Button ID="Button1" runat="server" Height="25px" Text="Additional information" Width="192px" />
-        </form>
+            <br />
+            <asp:Label ID="Label4" runat="server" Text="Address"></asp:Label>
+            <input id="Text4" type="text" /><br />
+            <asp:Label ID="Label5" runat="server" Text="City"></asp:Label>
+            <input id="Text5" type="text" /></form>
     </section>
     
 </asp:Content>
