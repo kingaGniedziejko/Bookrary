@@ -9,7 +9,7 @@
             <asp:Label ID="Label2" runat="server" Text="Topic"></asp:Label>
             <input id="Text2" type="text" /><br />
             <asp:Label ID="Label3" runat="server" Text="Phone"></asp:Label>
-            <input id="Text3" type="text" /><br />
+            <input id="Text3" type="number" /><br />
             <asp:TextBox ID="TextBox1" runat="server" Height="86px" Width="354px"></asp:TextBox><br />
             <asp:Button ID="Button1" runat="server" Height="25px" Text="Additional information" Width="192px" />
             <br />
