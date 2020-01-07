@@ -60,6 +60,15 @@ namespace Bookrary
         protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
+        /// Kontrolka LabelAdditional.
+        /// </summary>
+        /// <remarks>
+        /// Pole generowane automatycznie.
+        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelAdditional;
+
+        /// <summary>
         /// Kontrolka Label4.
         /// </summary>
         /// <remarks>

@@ -11,12 +11,15 @@
             <asp:Label ID="Label3" runat="server" Text="Phone"></asp:Label>
             <input id="Text3" type="number" /><br />
             <asp:TextBox ID="TextBox1" runat="server" Height="86px" Width="354px"></asp:TextBox><br />
-            <asp:Button ID="Button1" runat="server" Height="25px" Text="Additional information" Width="192px" />
+            <asp:Button ID="Button1" runat="server" Height="25px" Text="Additional information" Width="192px" OnClick="Button1_Click" />
             <br />
-            <asp:Label ID="Label4" runat="server" Text="Address"></asp:Label>
-            <input id="Text4" type="text" /><br />
-            <asp:Label ID="Label5" runat="server" Text="City"></asp:Label>
-            <input id="Text5" type="text" /></form>
+            <asp:Label ID="LabelAdditional" runat="server" style="width: 411px">
+                <asp:Label ID="Label4" runat="server" Text="Address"></asp:Label>
+                <input id="Text4" type="text" /><br />
+                <asp:Label ID="Label5" runat="server" Text="City"></asp:Label>
+                <input id="Text5" type="text" />
+            </asp:Label>
+        </form>
     </section>
     
 </asp:Content>

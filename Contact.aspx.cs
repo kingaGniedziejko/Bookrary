@@ -11,8 +11,19 @@ namespace Bookrary
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            LabelAdditional.Visible = false;
         }
 
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            if (LabelAdditional.Visible)
+            {
+                LabelAdditional.Visible = false;
+            }
+            else
+            {
+                LabelAdditional.Visible = true;
+            }
+        }
     }
 }
